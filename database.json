@@ -1,0 +1,11 @@
+{
+    "registro":[
+        {
+            "id": 1,
+            "titulo": "Treino 1",
+            "duração": 90,
+            "data": "11-03-2026",
+            "acertos": 3
+        }
+    ]
+}
