@@ -3,7 +3,7 @@ import { View, Text, Flatlist, Button } from "react-native";
 
 import styles from "../styles/styles";
 
-import { getRegistro, deleteRegistro } from "../servers/peopleCrud";
+import { getRegistro, deleteRegistro } from "../servers/registroCrud";
 
 function CardPersonal(item, navigation, refresh){
     return(

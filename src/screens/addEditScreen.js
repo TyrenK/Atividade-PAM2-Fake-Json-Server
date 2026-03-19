@@ -3,7 +3,7 @@ import { View, TextInput, Button} from "react-native";
 
 import styles from "../styles/styles";
 
-import { createRegistro, updateRegistro } from "../servers/peopleCrud";
+import { createRegistro, updateRegistro } from "../servers/registroCrud";
 
 export default function addEditScreen({ route, navigation }) {
     const registro = route.params?.registro;
